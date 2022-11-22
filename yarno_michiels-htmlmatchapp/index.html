@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drukken</title>
+    <meta name="description" content="Een applicatie voor ... te gaan matchen">
+
+</head>
+
+<body>
+    <header>
+        <h1>Drukken</h1>
+        <nav>
+            <ul>
+                <li><a href="#intro">Introduction</a></li>
+                <li><a href="#lijstjes">Lijstjes</a></li>
+            </ul>
+        </nav>
+    
+    </header>
+    <main>
+<section id="intro"></section>
+<img src="images/vis.jpg" alt="Dit is een afbeelding van een printer" width="289"> 
+    </main>
+
+</body>
+<section id="lijstjes" >
+    
+
+<h3>Waarom bij ons laten drukken.</h3>
+<ol><li>Snel geleverd</li>
+<li>Goede kwaliteit</li>
+<li>Professioneel gedrukt</li>
+<li>Grondig gecontroleerd</li></ol>
+</section>
+
+<form>
+
+<fieldset><legend>Foto uploaden:</legend>
+    <input type="file">
+</fieldset>
+<fieldset><legend>Soort papier:</legend>
+     <input type="radio" name="soort" value="Glanzend"> Glanzend
+     <input type="radio" name="soort" value="Karton"> Karton
+     <input type="radio" name="soort" value="Standaard"> Standaard
+    </fieldset><br>
+    <fieldset><legend>Kleuren:</legend>
+        <input type="checkbox" name="kleur" value="Cyaan"> Cyaan
+        <input type="checkbox" name="kleur" value="Magenta"> Magenta
+        <input type="checkbox" name="kleur" value="Yellow"> Yellow
+        <input type="checkbox" name="kleur" value="Black"> Black
+       </fieldset><br>
+       
+       <fieldset>
+        <legend>Formaat:</legend>
+        <select name="enquete" ><option value="a1">a1</option><option value="a2">a2</option><option value="a3">a3</option><option value="a4">a4</option><option value="a5">a5</option><option value="a6">a6</option></select>
+       </fieldset><br>
+       <fieldset>
+        
+        <legend>Aantal:</legend>
+        <input type="number" name="leeftijd" placeholder="Aantal">
+       </fieldset><br>
+       <fieldset>
+        <legend>Opmerking:</legend>
+        <textarea name="Opmerking" cols="30" rows="10" placeholder="Typ je opmerking hier."></textarea>
+       </fieldset><br>
+       
+       <button type="submit">Verstuur dit formulier</button>
+       <button type="reset">Reset</button>
+
+    </form>
+
+   
+
+</html>  
