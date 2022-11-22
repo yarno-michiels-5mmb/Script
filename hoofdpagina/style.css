@@ -1,0 +1,30 @@
+* {
+    margin: 0
+    ;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+#flexbox {
+    display: flex;
+    margin: PX;
+    margin-left: 10px;
+}
+
+.linkgithub {
+    border-color: black;
+    border-style: solid;
+    padding: 4px;
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+}
+
+.linkgithub:hover {
+    background-color: rgb(255, 0, 0);
+    color: white;
+}
