@@ -90,6 +90,8 @@ nav a {
   cursor: pointer;
 }
 
+.container {overflow: hidden;}
+
 
 #introduction {
   text-align: center;
