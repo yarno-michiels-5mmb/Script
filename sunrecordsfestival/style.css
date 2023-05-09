@@ -1,0 +1,68 @@
+@import url("https://use.typekit.net/hfi1kak.css");
+
+:root {
+    --bgc-01: hsl(0, 0%, 100%);
+    --bgc-02: hsl(0, 0%, 08%);
+    --txt-01: hsl(0, 0%, 0%);
+}
+
+body {
+    background-color: #63B390;
+    color: var(--txt-01);
+    font-family: "owners-wide", sans-serif;
+    line-height: 1;
+}
+
+header {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-items: center;
+    background-color: #3E67AF;
+}
+@import url("https://use.typekit.net/hfi1kak.css");
+
+
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    align-items: center;
+    }
+footer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-items: center;
+    background-color: #3E67AF;
+}
+
+.grid-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+}
+
+.grid-card img{
+    object-fit: cover;
+
+}
+
+.artiest-info{
+    padding: 10%;
+    background-color: #3E67AF;
+    border-radius: 15px;
+    transition: all ease-in-out 0.5s;
+}
+
+.artiest-info:hover{
+    transform: scale(1.1);
+}
