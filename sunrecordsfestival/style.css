@@ -20,9 +20,18 @@ header {
     justify-items: center;
     background-color: #3E67AF;
 }
+
 @import url("https://use.typekit.net/hfi1kak.css");
 
+#title {
+    text-align: center;
+}
 
+
+main img {
+    width: 100%;
+    height: auto;
+}
 
 * {
     margin: 0;
@@ -34,9 +43,11 @@ header {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
-    align-items: center;
-    }
-footer{
+    align-items: normal;
+    padding: 50px;
+}
+
+footer {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
@@ -44,25 +55,21 @@ footer{
     background-color: #3E67AF;
 }
 
-.grid-card{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    justify-items: center;
-}
 
-.grid-card img{
+
+.grid-card img {
+    aspect-ratio: 1 / 1;
     object-fit: cover;
 
 }
 
-.artiest-info{
+.artiest-info {
     padding: 10%;
     background-color: #3E67AF;
     border-radius: 15px;
     transition: all ease-in-out 0.5s;
 }
 
-.artiest-info:hover{
+.artiest-info:hover {
     transform: scale(1.1);
 }
