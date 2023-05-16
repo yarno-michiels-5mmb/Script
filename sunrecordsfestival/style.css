@@ -14,23 +14,48 @@ body {
 }
 
 header {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    display: flex;
     align-items: center;
-    justify-items: center;
+    padding: 20px;
     background-color: #3E67AF;
+    justify-content: space-between;
+}
+
+
+.logo {
+    width: 100px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+img {
+    width: 100%;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #ffffff;
 }
 
 @import url("https://use.typekit.net/hfi1kak.css");
 
 #title {
     text-align: center;
-}
-
-
-main img {
-    width: 100%;
-    height: auto;
+    padding-top: 50px;
 }
 
 * {
@@ -44,18 +69,12 @@ main img {
     grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
     align-items: normal;
-    padding: 50px;
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+
 }
-
-footer {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    align-items: center;
-    justify-items: center;
-    background-color: #3E67AF;
-}
-
-
 
 .grid-card img {
     aspect-ratio: 1 / 1;
@@ -71,5 +90,5 @@ footer {
 }
 
 .artiest-info:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
