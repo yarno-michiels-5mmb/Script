@@ -41,14 +41,14 @@ nav ul li {
     margin-right: 10px;
 }
 
-nav ul li a {
+ul li a {
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
     font-weight: bold;
 }
 
-nav ul li a:hover {
-    color: #ffffff;
+ul li a:hover {
+    color: #000000;
 }
 
 @import url("https://use.typekit.net/hfi1kak.css");
@@ -92,3 +92,34 @@ nav ul li a:hover {
 .artiest-info:hover {
     transform: scale(1.05);
 }
+
+footer {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #3E67AF;
+    justify-content: space-between;
+  }
+  
+  .footer-navigation ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 10px;
+  }
+  
+  .footer-navigation li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .footer-navigation li a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .footer-copyright {
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+  }
+  
