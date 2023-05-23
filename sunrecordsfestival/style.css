@@ -137,11 +137,17 @@ footer {
 height: 500px;
 width: auto;
 border: 12px solid #3E67AF;
-border-radius: 15px;
 }
 
 .fotobizzey{
-    padding: 100px;
+    padding: 75px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 }
 
-
+.fotobizzey p:last-child{
+    padding: 40px;
+    background-color:;
+}
