@@ -105,6 +105,8 @@ footer {
     list-style: none;
     padding: 0;
     margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
   }
   
   .footer-navigation li {
@@ -123,3 +125,8 @@ footer {
     font-weight: bold;
   }
   
+  .socialmedia svg {
+    width: 40px;
+    padding-left: 10px;
+  }
+
