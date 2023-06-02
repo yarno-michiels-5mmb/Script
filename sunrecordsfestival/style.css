@@ -145,9 +145,6 @@ border: 12px solid #3E67AF;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    gap: 40px;
 }
 
-.fotobizzey p:last-child{
-    padding: 40px;
-    background-color:;
-}
